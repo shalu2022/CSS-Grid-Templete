@@ -1,0 +1,73 @@
+@media(max-width:768px){
+    .container{  
+        grid-template-columns: 1fr;
+        width: auto;
+        margin-bottom: 60px;
+    }
+   
+   
+    .nav>nav>ul{
+        grid-template-columns: 1fr;
+    }
+    aside>nav>ul>li{
+        text-align: center;
+     }
+     .nav{
+        grid-template-columns: 1fr;
+     }
+     .leftList{
+        grid-template-columns:1fr; 
+    }
+    .leftList>input{
+        margin: 0 20px;
+    }
+    .parent{
+        grid-template-columns: 1fr 2fr;
+     }
+     .child{
+        display: grid;
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+        color: #fff;
+        justify-content: center;
+        align-items: right;  
+    }
+     .top-container{
+        grid-template-areas:'box-a' 'box-b''box-c' 'box-d' 'circleProgress';
+       }
+    .circleProgress{
+        grid-template-columns: 1fr;
+      
+    }
+    .circleProgress>nav>ul{
+        grid-template-columns: 1fr;
+      
+    }
+    .bottom-container{
+        grid-template-columns: 1fr;
+      
+    }
+    .leftList>span{
+        display: none;
+    }
+    .nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    justify-content: center;
+    text-align: center;
+    }
+    .nav>nav>ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+ align-items: center;
+ justify-content: center;
+
+    }
+        /* .line-graph-2{
+            width: 50%;
+            height: 50%;
+            overflow: hidden;
+        } */
+}
+        
